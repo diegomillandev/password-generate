@@ -11,7 +11,7 @@ export default function ThemeProvider({
 }) {
   return (
     <QueryClientProvider client={queryClient}>
-      <Toaster position="top-right" richColors />
+      <Toaster position="top-right" richColors theme="light" />
       {children}
     </QueryClientProvider>
   );
